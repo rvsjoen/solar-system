@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sun xmlns="http://tempuri.org/XMLSchema.xsd">
+  <name>The Sun</name>
+  <diameter>192984</diameter>
+  <texture>sun.jpg</texture>
+
+  <planet>
+    <name>Mercury</name>
+    <diameter>4880</diameter>
+    <orbit>57910000</orbit>
+    <texture>mercury.jpg</texture>
+    <orbitalspeed>47.87</orbitalspeed>
+    <inclination>7.005</inclination>
+    <axialtilt>0.01</axialtilt>
+    <rotationvelocity>0.003</rotationvelocity>
+  </planet>
+
+  <planet>
+    <name>Venus</name>
+    <diameter>12103.6</diameter>
+    <orbit>108200000</orbit>
+    <texture>venus.jpg</texture>
+    <orbitalspeed>35.02</orbitalspeed>
+    <inclination>3.39471</inclination>
+    <axialtilt>177.36</axialtilt>
+    <rotationvelocity>0.0018</rotationvelocity>
+  </planet>
+
+  <planet>
+    <name>Earth</name>
+    <diameter>12756.3</diameter>
+    <orbit>149600000</orbit>
+    <texture>earth.jpg</texture>
+    <orbitalspeed>29.783</orbitalspeed>
+    <inclination>0</inclination>
+    <axialtilt>23.43</axialtilt>
+    <rotationvelocity>0.46511</rotationvelocity>
+    <moon>
+      <name>Luna</name>
+      <diameter>3476</diameter>
+      <orbit>384400</orbit>
+      <orbitalspeed>1.022</orbitalspeed>
+    </moon>
+  </planet>
+
+  
+  <planet>
+    <name>Mars</name>
+    <diameter>6794</diameter>
+    <orbit>227940000</orbit>
+    <texture>mars.jpg</texture>
+    <orbitalspeed>24.077</orbitalspeed>
+    <inclination>1.850</inclination>
+    <axialtilt>25.19</axialtilt>
+    <rotationvelocity>0.24</rotationvelocity>
+    <moon>
+      <name>Phobos</name>
+      <diameter>22.2</diameter>
+      <orbit>9378</orbit>
+      <orbitalspeed>2.138</orbitalspeed>
+    </moon>
+    <moon>
+      <name>Deimos</name>
+      <diameter>12.6</diameter>
+      <orbit>23459</orbit>
+      <orbitalspeed>1.35</orbitalspeed>
+    </moon>
+  </planet>
+  
+  <planet>
+    <name>Jupiter</name>
+    <diameter>142984</diameter>
+    <orbit>778330000</orbit>
+    <texture>jupiter.jpg</texture>
+    <orbitalspeed>13.07</orbitalspeed>
+    <inclination>1.305</inclination>
+    <axialtilt>3.13</axialtilt>
+    <rotationvelocity>12.6</rotationvelocity>
+    <moon>
+      <name>Ganymede</name>
+      <diameter>5262</diameter>
+      <orbit>1070000</orbit>
+      <orbitalspeed>10.9</orbitalspeed>
+    </moon>
+    <moon>
+      <name>Callisto</name>
+      <diameter>4800</diameter>
+      <orbit>1883000</orbit>
+      <orbitalspeed>8.21</orbitalspeed>
+    </moon>
+  </planet>
+  
+  <planet>
+    <name>Saturn</name>
+    <diameter>120536</diameter>
+    <orbit>1429400000</orbit>
+    <texture>saturn.jpg</texture>
+    <orbitalspeed>9.69</orbitalspeed>
+    <inclination>2.49</inclination>
+    <axialtilt>26.73</axialtilt>
+    <rotationvelocity>9.67</rotationvelocity>
+    <moon>
+      <name>Iapetus</name>
+      <diameter>1460</diameter>
+      <orbit>3561000</orbit>
+      <orbitalspeed>3.27</orbitalspeed>
+    </moon>
+    <moon>
+      <name>Phoebe</name>
+      <diameter>220</diameter>
+      <orbit>12952000</orbit>
+      <orbitalspeed>3.26</orbitalspeed>
+    </moon>
+  </planet>
+  
+  <planet>
+    <name>Uranus</name>
+    <diameter>51118</diameter>
+    <orbit>2870990000</orbit>
+    <texture>uranus.jpg</texture>
+    <orbitalspeed>6.81</orbitalspeed>
+    <inclination>0.77</inclination>
+    <axialtilt>97.77</axialtilt>
+    <rotationvelocity>2.59</rotationvelocity>
+  </planet>
+
+  <planet>
+    <name>Neptune</name>
+    <diameter>49532</diameter>
+    <orbit>4504000000</orbit>
+    <texture>neptune.jpg</texture>
+    <orbitalspeed>5.43</orbitalspeed>
+    <inclination>1.77</inclination>
+    <axialtilt>28.32</axialtilt>
+    <rotationvelocity>2.68</rotationvelocity>
+  </planet>
+
+  <planet>
+    <name>Pluto</name>
+    <diameter>5000</diameter>
+    <orbit>5913520000</orbit>
+    <texture>pluto.jpg</texture>
+    <orbitalspeed>4.666</orbitalspeed>
+    <inclination>17.14</inclination>
+    <axialtilt>119.61</axialtilt>
+    <rotationvelocity>0.013</rotationvelocity>
+  </planet>
+
+</sun>

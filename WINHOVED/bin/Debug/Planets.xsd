@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="planet">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:double" name="diameter"/>
+      <xs:element type="xs:long" name="orbit"/>
+      <xs:element type="xs:string" name="texture" minOccurs="0" maxOccurs="1"/>
+      <xs:element type="xs:double" name="orbitalspeed" minOccurs="0"/>
+      <xs:element type="xs:double" name="inclination" minOccurs="0"/>
+      <xs:element type="xs:double" name="axialtilt" minOccurs="0"/>
+      <xs:element type="xs:double" name="rotationvelocity" minOccurs="0"/>
+      <xs:element type="planet" name="moon" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="sun">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="diameter" type="xs:double"/>
+        <xs:element type="xs:string" name="texture" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="planet" type="planet" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

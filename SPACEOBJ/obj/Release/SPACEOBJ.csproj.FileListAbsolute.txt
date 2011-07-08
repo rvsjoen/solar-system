@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2008\Projects\Solsystem\SPACEOBJ\bin\Release\SPACEOBJ.dll
+D:\Documents\Visual Studio 2008\Projects\Solsystem\SPACEOBJ\bin\Release\SPACEOBJ.pdb
+D:\Documents\Visual Studio 2008\Projects\Solsystem\SPACEOBJ\obj\Release\ResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2008\Projects\Solsystem\SPACEOBJ\obj\Release\SPACEOBJ.dll
+D:\Documents\Visual Studio 2008\Projects\Solsystem\SPACEOBJ\obj\Release\SPACEOBJ.pdb

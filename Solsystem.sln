@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPACEOBJ", "SPACEOBJ\SPACEOBJ.csproj", "{86A40DD0-9DB7-4A1F-AA62-F4380B610A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOVED", "HOVED\HOVED.csproj", "{7D711744-D4D5-4369-8D06-969A164E8B23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86A40DD0-9DB7-4A1F-AA62-F4380B610A8B} = {86A40DD0-9DB7-4A1F-AA62-F4380B610A8B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WINHOVED", "WINHOVED\WINHOVED.csproj", "{1855A761-AB42-4083-8111-001EBB425641}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A40DD0-9DB7-4A1F-AA62-F4380B610A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A40DD0-9DB7-4A1F-AA62-F4380B610A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A40DD0-9DB7-4A1F-AA62-F4380B610A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A40DD0-9DB7-4A1F-AA62-F4380B610A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D711744-D4D5-4369-8D06-969A164E8B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D711744-D4D5-4369-8D06-969A164E8B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D711744-D4D5-4369-8D06-969A164E8B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D711744-D4D5-4369-8D06-969A164E8B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1855A761-AB42-4083-8111-001EBB425641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1855A761-AB42-4083-8111-001EBB425641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1855A761-AB42-4083-8111-001EBB425641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1855A761-AB42-4083-8111-001EBB425641}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
